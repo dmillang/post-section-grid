@@ -1,8 +1,12 @@
 # CSS Grid Feature Section
-This is a simple 6 item grid with 3 columns (no set number of rows) made with CSS Grid.
+This is a simple web layout with a menu, two sections, sidebar and footer made with CSS Grid.
 
 * Includes
     * display: grid;
     * grid-template-columns
     * grid-gap
+    * grid-column
+    * grid-row
+    * display: flex
+    * align-self: center
 
