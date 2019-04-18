@@ -1,0 +1,59 @@
+/* Blocks */
+
+.container {
+	padding: 2rem 5rem;
+	background-image: linear-gradient(180deg, #93F9B9, #1D976C);
+	height: 100%;
+
+	display: grid;
+	grid-row-gap: 20px;
+	grid-column-gap: 20px;
+
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 100px 300px 150px 100px;
+}
+
+.card {
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0px 1px 2px rgba(0,0,0, 0.4);
+
+	display: flex;
+	height: 100%;
+}
+
+.card h3 {
+	color: #041710;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	font-weight: 300;
+	align-self: center;
+	margin: 0 auto;
+	text-shadow: 0px 1px 2px rgba(0,0,0, 0.2);
+}
+
+.header {
+	grid-column: 1/-1;
+	grid-row: 1/2;
+}
+
+.post {
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+
+.comments {
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+
+.sidebar {
+	grid-column: 2/3;
+	grid-row: 2/4;
+}
+
+.footer {
+	grid-column: 1/-1;
+	grid-row: 4/5;
+}
